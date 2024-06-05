@@ -1,15 +1,84 @@
 body {
-  font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    background-color: #d8b8e0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-#flipbook {
-  width: 800px;
-  height: 600px;
-  margin: 0 auto;
+.container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-.page {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin: 0;
+    color: #666;
+}
+
+.item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 10px 0 5px;
+}
+
+p {
+    font-size: 1em;
+    margin: 0 0 10px;
+    color: #666;
+}
+
+.price {
+    background-color: #ff6f00;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.price span {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.price small {
+    font-size: 0.8em;
+    display: block;
+    margin-top: 5px;
 }
